@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="layout with float and flex">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        ОТСТРИГУН/project
+    </title>
+    <link rel="stylesheet" href="/css/index.css"/>
+    <link rel="stylesheet" href="/css/mystyle.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+          integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="container">
+        <div class="row-flex row-flex__x-center">
+            <div class="col-sm-8-flex list">
+                <ul class="big">
+                    <li>
+                        <a href="#">
+                            <div class="round_link"><i style="margin: 4px 0 0 6px;" class="fab fa-instagram"></i></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="round_link"><i style="margin: 4px 0 0 6px;" class="fab fa-facebook-square"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="round_link"><i style="margin: 4px 0 0 3px;" class="fab fa-vk"></i></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4-flex">
+                <div class="open_order list btn my_style" data-type="order"
+                     onclick="onNavItemClick('/order'); return false;"><b>ОНЛАЙН-ЗАПИСЬ</b></div>
+                <div class="list phone pull__pull-right"><i class="fas fa-mobile-alt"></i> <a
+                        href="tel:+79999234567"><b>+7(999)923-45-67</b></a></div>
+            </div>
+        </div>
+        <hr style="border-bottom-color: grey;">
+        <div class="row-flex">
+            <div class="col-sm-4-flex logo">
+                <a href="#" onclick="onNavItemClick('/'); return false;"><img src="assets/logo.PNG" alt="logo"/></a>
+            </div>
+            <div class="col-sm-8-flex list">
+                <ul class="row-flex row-flex__space-between navigation">
+                    <div><a href="#" onclick="onNavItemClick('/about'); return false;">О нас</a></div>
+                    <div><a href="#" onclick="onNavItemClick('/contact'); return false;">Адреса</a></div>
+                    <div><a href="#" onclick="onNavItemClick('/comments'); return false;">Отзывы</a></div>
+                    <div><a href="#" onclick="onNavItemClick('/work'); return false;">Вакансии</a></div>
+                    <div><a data="login-button" href="#" onclick="onNavItemClick('/login'); return false;">Вход</a></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="outer-space-32" data-type="content"></div>
+
+<footer>
+    <div class="container-fluid" style="background-color: black;">
+        <div class="container">
+            <div class="row-flex">
+                <div class="col-sm-12">
+                    <p style="color: #fff;">Все права защищены.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="client/reconnecting-websocket.js"></script>
+<script src="client/browser.js"></script>
+<script src="client/calendar.js"></script>
+<script src="client/form.js"></script>
+<script src="client/order.js"></script>
+
+</body>
+</html>

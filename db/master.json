@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5bdd6ed44764651af03c0e5c"},"name_id":{"$numberInt":"1"},"name":"Вася","surname":"Волков"}
+{"_id":{"$oid":"5bdd6f1b0f4d2d1af07bb79b"},"name_id":{"$numberInt":"2"},"name":"Вова","surname":"Долгопупков"}
+{"_id":{"$oid":"5bdd6f2c0f4d2d1af07bb79c"},"name_id":{"$numberInt":"3"},"name":"Мария","surname":"Золотова"}
+{"_id":{"$oid":"5bdd6f550f4d2d1af07bb79d"},"name_id":{"$numberInt":"4"},"name":"Маша","surname":"Воронова"}

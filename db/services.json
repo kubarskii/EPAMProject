@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5bdd6de54764651af03c0e5a"},"service_id":{"$numberInt":"1"},"name":"Стрижка","masters":[{"$numberInt":"1"},{"$numberInt":"4"}]}
+{"_id":{"$oid":"5bdd6e274764651af03c0e5b"},"service_id":{"$numberInt":"2"},"name":"Бритье","masters":[{"$numberInt":"1"},{"$numberInt":"2"},{"$numberInt":"3"}]}
