@@ -1,6 +1,7 @@
 # EPAMProject
 
 Клиент:
+
 Vanila JS
 Websocket
 FontAwesome
@@ -8,6 +9,7 @@ FontAwesome
 _______________________________________________________________________________
 
 Сервер:
+
 Node js
 Websocket
 JSONWebToken(JWT)
